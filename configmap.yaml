@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_NAME: "CENG413 HW-3 App"
+  PORT: "8080"
+  REDIS_HOST: "redis-service"
+  REDIS_PORT: "6379"
+  COUNTER_KEY: "hw3:counter"
